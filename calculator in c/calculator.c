@@ -30,7 +30,7 @@ int main(){
 
     char operator;
     printf("Choose a operator(+, -, *, /)");
-    scanf("%c", &operator);
+    scanf(" %c", &operator);
 
     if(operator == '+'){
         addition(num1, num2);
